@@ -1,0 +1,399 @@
+/* Rodapé */
+footer {
+  background-color: #0F0F0F;
+  color: #FFF;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#desenvolvido-por{
+  font-size: 24px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 600;
+  color: #25282a;
+  text-align: center;
+}
+
+/* Cabeçalho */
+.sticky-top {
+  background-color: #0F0F0F;
+  box-shadow: 0px 5px 10px 0px #000000;
+}
+
+.nav-link{
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #0F0F0F;
+  padding-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.button-header {
+  max-width: calc(100vw - 15px)!important;
+  max-height: 60vh!important;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #FF6721;
+}
+
+/* Botões */
+.button {
+  background-color: #FF6721;
+  color: #FFF;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .3s;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #1b1b1b;
+  font-size: 18px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #E63012;
+}
+
+.newsletter-button {
+  background-color: #25282a;
+}
+
+.newsletter-button:hover {
+  background-color: #383838;
+}
+
+.float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:20px;
+	right:25px;
+	background-color:#0cb114;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  transition: transform 0.5s;
+  transform: translateX(0.5) scale(0.8);
+  box-shadow: 0px 5px 10px 0px #646464;
+    -webkit-box-shadow: 0px 5px 15px 0px #3f3f3f;
+}
+
+.float:hover{
+  color: #FFF;
+  background-color: rgb(21, 158, 9);
+  transform: translateX(10px) scale(1.0);
+}
+
+.my-float{margin-top:16px;}
+
+/* Primeira seção do site */
+#first-section {
+  background-image: linear-gradient(rgba(20, 19, 19, 0.5), rgba(0, 0, 0, 0.5)), url("https://get.pxhere.com/photo/space-outer-space-astronomical-object-planet-atmosphere-universe-astronomy-moon-sky-atmospheric-phenomenon-galaxy-earth-black-and-white-stock-photography-world-darkness-science-night-star-midnight-1596849.jpg");
+  color: #FFF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+/* Segunda seção do site */
+#second-section {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.card {
+  box-shadow: 0 0 1em #999;
+  width: 100px;
+  height: 350px;
+}
+
+.card-title {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 18px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.card-icon {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.button-card {
+  margin-top: 15px;
+}
+
+/* Terceira seção */
+#third-section {
+  background-image: linear-gradient(rgba(20, 19, 19, 0.5), rgba(0, 0, 0, 0.5)), url("https://ichef.bbci.co.uk/news/800/cpsprodpb/6311/production/_107916352_orion_nasa_2-1920x1080.jpg.webp");
+  color: #FFF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Newsletter */
+#newsletter {
+  background-color: #E63012;
+  color: #FFF;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.newsletter-title {
+  font-size: 32px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 600;
+  text-shadow: 3px 3px 5px #1b1b1b;
+}
+
+.newsletter-subtitle {
+  font-size: 24px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 3px 3px 5px #1b1b1b;
+}
+
+.newsletter-forms {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  margin-right: 20px;
+  height: 45px;
+}
+
+/* Estilização textos */
+.focus-title {
+  font-size: 64px;
+  font-family: Courier, "Lucida Console", monospace;
+  font-weight: 600;
+  text-shadow: 5px 5px 5px #1b1b1b;
+}
+
+.focus-subtitle {
+  font-size: 32px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: -10px;
+  text-shadow: 5px 5px 5px #1b1b1b;
+}
+
+.focus-text {
+  font-size: 22px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 400;
+  text-shadow: 5px 5px 5px #1b1b1b;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+
+  #empresa {
+    margin-bottom: -40px;
+  }
+
+  #empresa-text {
+    padding-top: 30px;
+  }
+
+  body{
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 580px) { 
+  #contact-form {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -60px;
+  }
+}
+
+@media (min-width: 991px) { 
+  #empresa-text {
+    padding-left: 30px;
+  }
+
+  .sticky-top {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-nav{
+  font-size: 18px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 600;
+  }
+
+  .navbar {
+
+  color: #E63012;
+  }
+}
+
+@media (max-width: 991px) { 
+  #logo-header {
+    display: none;
+  }
+}
+
+/* Página de empresa */
+#fale-conosco {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.text {
+  font-size: 18px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+#contact-form {
+  background-color: #E63012;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+iframe {
+  filter: invert(100%) grayscale(90%);
+}
+
+.icon-text {
+  font-size: 26px;
+  padding-bottom: 40px;
+}
+
+#div-informacoes {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+#page-presentation {
+  background-image: linear-gradient(rgba(20, 19, 19, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.time.com/wp-content/uploads/2015/10/iconic-space-photos-viking-1-mars-nasa1.jpg?");
+  color: #FFF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+#mapa {
+  margin-bottom: -20px;
+}
+
+/* Página de empresa  */
+  #empresa {
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  #imagem-empresa {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    max-width: calc(100vw - 55px)!important;
+    max-height: 60vh!important;
+  }
+
+  #empresa-text {
+  font-size: 18px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #383838;
+  }
+  /* Carrossel */
+  .carousel {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    justify-content: center;
+    display: inline-table;
+    transition: width 2s, height 2s, transition 3s;
+  }
+
+  .carousel:hover {
+    width: 300px;
+    height: 200px;
+  }
+
+  .carousel-inner {
+    border-radius: 200px;
+  }
+
+  #equipe {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  #equipe-title {
+    font-size: 32px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-weight: 600;
+    color: #1b1b1b;
+    text-shadow: 1px 1px 5px #999;
+    padding-bottom: 10px;
+  }
+
+  #equipe-text {
+    font-size: 18px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 10px;
+  }
+
+  /* Página de produtos */
+
+  #product-title {
+    font-size: 42px;
+    font-family: Courier, "Lucida Console", monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px #1b1b1b;
+  }
+
+  #pagina-em-construcao {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
